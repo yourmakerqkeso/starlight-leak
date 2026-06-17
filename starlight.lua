@@ -1,4 +1,4 @@
-    -[[do
+    --[[do
     local secActive = true
     local lastChk = tick()
     local function safeChk()
