@@ -35,7 +35,7 @@
         secActive = false
         game:GetService("Players").LocalPlayer:Kick("Security violation")
         return
-    end]]
+    end
 
 spawn(function()
         wait(0.5)
@@ -44,7 +44,7 @@ spawn(function()
           setclipboard("starlight.cc | " .. os.date("%Y-%m-%d %H:%M:%S"))
         end)
     end
-end)
+end)]]
 
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/Library.lua"))()
 local TM = loadstring(game:HttpGet("https://raw.githubusercontent.com/eradicator2/starlight-criminality/refs/heads/main/ThemeManager.lua"))()
